@@ -2,6 +2,11 @@
 ## First you need to map the normal matrix to a cacheable one
 ## Then you pass it to a solving one that actually does the math
 
+## Example:
+## a <- cbind(c(1, 0, 1), c(2, 4, 0), c(3, 5, 6))
+## cacheA <- makeCacheMatrix(a)
+## cacheSolve(cacheA)
+
 
 ## This first function maps a normal matrix to a cacheable one
 ## As per assignment instructions
